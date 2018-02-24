@@ -23,7 +23,7 @@ import sys
 
 import Adafruit_DHT
 
-
+print("start")
 # Parse command line parameters.
 sensor = Adafruit_DHT.DHT11
 pin = 23
