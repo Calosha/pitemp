@@ -22,7 +22,7 @@
 					<input id="temp-value"></input>
 				</div>
 				<div class="col-sm-12">
-					<button id ="btn action-show-temp">Get temperature</button>
+					<button class="btn" id="action-show-temp">Get temperature</button>
 				</div>
 			</div>
 		</div>
