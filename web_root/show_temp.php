@@ -12,10 +12,22 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-
-<h1>Temperture meter</h1>
-<button id ="action-show-temp"></button>
-
+	<div class="wrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1>Temperature meter</h1>
+				</div>
+				<div class="col-sm-12">
+					<input id="temp-value"></input>
+				</div>
+				<div class="col-sm-12">
+					<button id ="btn action-show-temp">Get temperature</button>
+				</div>
+			</div>
+		</div>
+		
+	</div>
 </body>
 <!-- Include scripts here -->
 <script type="text/javascript" src="/js/temperature.js"></script>
