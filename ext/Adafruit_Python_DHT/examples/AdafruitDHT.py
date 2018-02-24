@@ -31,8 +31,9 @@ pin = 23
 
 # Try to grab a sensor reading.  Use the read_retry method which will retry up
 # to 15 times to get a sensor reading (waiting 2 seconds between each retry).
+print('function start')
 humidity, temperature = Adafruit_DHT.read(sensor, pin)
-print('temp')
+print('temp is:')
 print(temperature)
 
 # Un-comment the line below to convert the temperature to Fahrenheit.
