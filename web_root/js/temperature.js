@@ -4,7 +4,7 @@ $(function() {
     	$.ajax({
 	        type: 'POST',
 	        url: "../../ext/Adafruit_Python_DHT/examples/AdafruitDHT.py",
-	        data: {param: xyz}, //passing some input here
+	        data: {param: 'xyz'}, //passing some input here
 	        dataType: "text",
 	        success: function(response){
 	           output = response;
